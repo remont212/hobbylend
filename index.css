@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,900;1,400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    top: 0;
+    font-family: Montserrat;
+
+}
+
+header{
+height: 70px;
+z-index: 8000;
+    background-color: rgb(255, 85, 0);
+
+}
+header img{
+    display: none;
+}
+header h1 {
+    z-index: 2000;
+    top: 10px;
+    color: rgb(238, 255, 0);
+    position: relative;
+}
+header ul li{
+    list-style: none;
+margin-left:50px ;
+    float: left;
+z-index: 3000;
+position: relative;
+    top: -20px;
+
+}
+header ul{
+    margin-left: 280px;
+}
+.fixed{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+a{
+    text-decoration: none;
+}
+header a{
+    color: aliceblue;
+}
+
+header a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.title{
+    height: 600px;
+    color: aliceblue;
+    width: 100%;
+overflow: hidden;
+background-attachment: fixed;
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(164,90,125,0.7231267507002801) 26%);
+}
+.title h1{
+    font-size: 3em;
+    padding-top: 300px;
+z-index: 5000;
+position: relative;
+}
+.tasks{
+    display: flex;
+
+    margin-top: 100px ;
+    flex-wrap: wrap;
+
+}
+.tasks h1{
+    color: rgb(71, 61, 61);
+
+}
+.tasks section{
+    padding-top: 80px;
+    
+    margin-left: 200px;
+}
+.title img{
+    margin-top: -800px;
+    z-index: 1000;
+    
+    margin-left: 300px;
+}
+.tasks img{
+    transition: transform 400ms ease;
+
+}
+.first{
+    height: 40px;
+    width: 140px;
+    background-color: yellow;
+border: 0px;
+border-radius: 5px;
+margin-top: 30px;
+}
+.first a{
+    color: black;
+}
+.close{
+    display: none;
+}
+.tasks img:hover{
+transform: scale(1.1);
+transition: 400ms;
+}
+.dates{
+    font-size: 20px;
+    width: 100%;
+
+    background-attachment: fixed;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(164,90,125,0.7231267507002801) 26%);
+    height: 700px;
+}
+.dates .honer1{
+    text-align: center;
+
+}
+.title button{
+   position: relative; 
+   top: -400px;
+   cursor: pointer;
+}
+footer{
+    background-color: olive;
+    height: 300px;
+    width: 100%;
+    margin-top: 500px;
+
+}
+
+footer a{
+    color: #fff;
+    margin-top: 60px;
+}
+footer h2{
+    margin-top: 60px;
+
+}
+.date{
+    background: #fff;
+    width: 70%;
+    margin-left: 15%;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 40px;
+padding-top: 40px;
+}
+@media(max-width: 1020px){
+ *{
+    margin: 0 ;
+    padding: 0;
+ }
+ footer{
+ margin-top: 700px;
+}
+ .title img{
+    margin-left: -150px;
+    top: -150px;
+    width: 100%;
+    position: relative;
+    height: 500px;
+ }
+    .title{
+        height: 600px;
+        color: aliceblue;
+        width: 100%;
+        background-color: chartreuse;
+    }
+    .close{
+        display: block;
+    }
+    .title h1{
+        font-size: 1em;
+        padding-left: 0px;
+        padding-top: 200px;
+    }
+    .tasks{
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.tasks h1{
+    font-size: 28px;
+}
+.tasks section{
+    padding-top: 0px;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.tasks img{
+    width: 100px;
+    height: 100px;
+}
+.title button{
+    margin-top: 470px;
+}
+
+    .nav-modal{
+        background-color: rgb(188, 230, 21);
+        height: 400px;
+        z-index: 9999;
+        position: relative;
+        top: -700px;
+        left:0;
+        color: black;
+        width: 100%;
+        position: fixed;
+
+    }
+    .comment{
+        margin-top: 400px;
+    }
+    .nav-modal ul{
+        margin-left: 0;
+    }
+    
+    header img{
+display: block;
+position: relative;
+    }
+    header{
+        height: 70px;
+        width: 100%;
+        background-color: rgb(255, 85, 0);
+        
+        }
+        header ul li{
+            list-style: none;
+        margin-left:50px ;
+            float: left;
+            padding-top: 30px;
+        
+        }
+        .dates{
+            width: 100%;
+        }
+        .date{
+            width: 100%;
+            margin-left: 0;
+            height: 300px;
+        }
+        .date h1{
+            font-size: 23px;
+        }
+        a{
+            text-decoration: none;
+        }
+        header a{
+            color: aliceblue;
+        }
+        .nav-modal ul{
+            padding-top: 70px;
+        }
+        .nav-modal img{
+            padding-top: -50px;
+        }
+        header a:hover{
+            background-color: aliceblue;
+            color: black;
+        } 
+        header h1{
+         display: none;
+        }  
+}
